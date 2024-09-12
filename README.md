@@ -8,25 +8,25 @@ This website tests how standard and custom HTML tags are indexed by Google under
 
 | Content          | Javascript | Link                                                                                    | Seen by Google |
 |------------------|------------|-----------------------------------------------------------------------------------------|----------------|
-| static html      | –          | [/html-static](https://leofavre.github.io/web-components-seo/html-static)               | yes            |
-| sync javascript  | ES5        | [/html-dynamic-sync](https://leofavre.github.io/web-components-seo/html-dynamic-sync)   | yes            |
-| async javascript | ES5        | [/html-dynamic-async](https://leofavre.github.io/web-components-seo/html-dynamic-async) | no             |
+| static html      | –          | [/html-static](/html-static)               | yes            |
+| sync javascript  | ES5        | [/html-dynamic-sync](/html-dynamic-sync)   | yes            |
+| async javascript | ES5        | [/html-dynamic-async](/html-dynamic-async) | no             |
 
 
 ## Custom HTML
 
 | Content          | Tag definition | Shadow DOM | Javascript | Link                                                                                                    | Seen by Google |
 |------------------|----------------|------------|------------|---------------------------------------------------------------------------------------------------------|----------------|
-| static html      | undefined      | —          | —          | [/undefined-static](https://leofavre.github.io/web-components-seo/undefined-static)                     | yes            |
-| static html      | immediate      | yes        | ES5        | [/shadow-static-sync-es5](https://leofavre.github.io/web-components-seo/shadow-static-sync-es5)         | yes            |
-| static html      | immediate      | yes        | ES6        | [/shadow-static-sync](https://leofavre.github.io/web-components-seo/shadow-static-sync)                 | yes            |
-| static html      | lazy           | yes        | ES6        | [/shadow-static-async](https://leofavre.github.io/web-components-seo/shadow-static-async)               | yes            |
-| sync javascript  | immediate      | no         | ES5        | [/noshadow-dynamic-sync-es5](https://leofavre.github.io/web-components-seo/noshadow-dynamic-sync-es5)   | no             |
-| sync javascript  | immediate      | no         | ES6        | [/noshadow-dynamic-sync](https://leofavre.github.io/web-components-seo/noshadow-dynamic-sync)           | no             |
-| sync javascript  | immediate      | yes        | ES5        | [/shadow-dynamic-sync-es5](https://leofavre.github.io/web-components-seo/shadow-dynamic-sync-es5)       | no             |
-| sync javascript  | immediate      | yes        | ES6        | [/shadow-dynamic-sync](https://leofavre.github.io/web-components-seo/shadow-dynamic-sync)               | no             |
-| async javascript | lazy           | no         | ES6        | [/noshadow-dynamic-async](https://leofavre.github.io/web-components-seo/noshadow-dynamic-async)         | no             |
-| async javascript | lazy           | yes        | ES6        | [/shadow-dynamic-async](https://leofavre.github.io/web-components-seo/shadow-dynamic-async)             | no             |
+| static html      | undefined      | —          | —          | [/undefined-static](/undefined-static)                     | yes            |
+| static html      | immediate      | yes        | ES5        | [/shadow-static-sync-es5](/shadow-static-sync-es5)         | yes            |
+| static html      | immediate      | yes        | ES6        | [/shadow-static-sync](/shadow-static-sync)                 | yes            |
+| static html      | lazy           | yes        | ES6        | [/shadow-static-async](/shadow-static-async)               | yes            |
+| sync javascript  | immediate      | no         | ES5        | [/noshadow-dynamic-sync-es5](/noshadow-dynamic-sync-es5)   | no             |
+| sync javascript  | immediate      | no         | ES6        | [/noshadow-dynamic-sync](/noshadow-dynamic-sync)           | no             |
+| sync javascript  | immediate      | yes        | ES5        | [/shadow-dynamic-sync-es5](/shadow-dynamic-sync-es5)       | no             |
+| sync javascript  | immediate      | yes        | ES6        | [/shadow-dynamic-sync](/shadow-dynamic-sync)               | no             |
+| async javascript | lazy           | no         | ES6        | [/noshadow-dynamic-async](/noshadow-dynamic-async)         | no             |
+| async javascript | lazy           | yes        | ES6        | [/shadow-dynamic-async](/shadow-dynamic-async)             | no             |
 
 ### Conclusion
 
